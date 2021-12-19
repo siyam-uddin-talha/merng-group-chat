@@ -1,0 +1,80 @@
+.j-c-c {
+  justify-content: center;
+}
+.a-i-c {
+  align-items: center;
+}
+.j-c-s-b {
+  justify-content: space-between;
+}
+.f-d-c {
+  flex-direction: column;
+}
+
+/* 
+
+************************ ************* local **********************
+
+*/
+
+.chat_container {
+  width: 25rem;
+  margin: 4.5rem auto;
+  display: flex;
+  justify-content: center;
+  background: rgb(23, 30, 53);
+  color: white;
+}
+
+.wrapper_box {
+  width: 100%;
+  position: relative;
+  height: 520px;
+  overflow: hidden;
+  //   box-shadow: 1px 0 16px 0 rgb(31 30 37 / 92%);
+  border-radius: 0.5rem;
+}
+
+.m-box-wraper {
+  overflow: hidden auto;
+  max-height: 400px;
+  padding: 1rem 1rem 0;
+}
+
+.write_so_ss {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+.write_input {
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  background: #5e5e5e;
+  padding: 0 1rem;
+  color: white;
+  width: -webkit-fill-available;
+}
+
+span.user_ {
+  font-size: 0.77rem;
+  text-transform: capitalize;
+}
+
+.a_cont > span {
+  display: block;
+}
+
+.a_cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.content.d-flex {
+  background: #393791;
+  width: fit-content;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.44rem;
+}
