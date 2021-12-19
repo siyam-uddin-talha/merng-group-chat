@@ -11,10 +11,13 @@ import Context from './components/Provider/Context'
 import { getMainDefinition } from '@apollo/client/utilities'
 
 const httpLink = new HttpLink({
-  uri: 'http://localhost:5000/graphql', credentials: 'include',
+  uri: '/graphql', credentials: 'include',
 })
 
-const wsLink = new WebSocketLink({ uri: 'ws://localhost:5000/graphql', options: { reconnect: true } })
+const wsLink = new WebSocketLink({
+  uri: 'ws://mr-merng-group-chat.herokuapp.com/graphql',
+  options: { reconnect: true }
+})
 
 const splitLink = split(({ query }) => {
   const definition = getMainDefinition(query)
