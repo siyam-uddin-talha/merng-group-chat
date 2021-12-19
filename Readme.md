@@ -1,6 +1,6 @@
-# Welcome to Mr Lighthouse!
+# Welcome to Mr || MERNG Group chat app
 
-**Mr Lighthouse**
+**Power by Mr Lighthouse**
 
 # Files
 
