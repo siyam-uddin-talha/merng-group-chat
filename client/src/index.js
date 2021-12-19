@@ -15,7 +15,7 @@ const httpLink = new HttpLink({
 })
 
 const wsLink = new WebSocketLink({
-  uri: 'ws://mr-merng-group-chat.herokuapp.com/graphql',
+  uri: 'wss://mr-merng-group-chat.herokuapp.com/graphql',
   options: { reconnect: true }
 })
 
