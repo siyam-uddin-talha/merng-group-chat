@@ -92,7 +92,7 @@ export default function SignUp() {
     React.useEffect(() => {
         if (data) {
             if (data.signUp.success) {
-                setstate({ currentUser: data.login.user })
+                setstate({ currentUser: data.signUp.user })
 
                 navigate("/", {
                     replace: true,
